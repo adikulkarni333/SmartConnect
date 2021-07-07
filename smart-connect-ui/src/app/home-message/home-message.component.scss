@@ -3,7 +3,6 @@
 .home-page-content-container {
   height: 35%;
   width: 30%;
-  color: white;
   text-align: center;
   margin: auto;
   padding-top: 70px;
@@ -20,13 +19,13 @@ button {
   height: 50px;
   font-size: x-large;
   border-radius: 15px;
-  background-color: transparent;
-  color: white;
+  background-color: #2ea44f;
   margin-right: 6px;
+  transition: 0.5s;
+  transition-property: background-color;
 }
 
 button:hover {
-  background-color: lightyellow;
-  color: black;
+  background-color: rgb(179, 179, 30);
   cursor: pointer;
 }

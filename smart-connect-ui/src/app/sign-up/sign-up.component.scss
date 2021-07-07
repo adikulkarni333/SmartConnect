@@ -1,3 +1,53 @@
-h1 {
-  color: white;
+.sign-up {
+  height: 650px;
+  width: 400px;
+  margin-left: auto;
+  margin-right: auto;
+  background-image: url("../../assets/images/star.jpeg");
+  padding-top: 10px;
+  border: 1px solid darkslategrey;
+  border-radius: 30px;
+  margin-top: 50px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 40px;
+}
+
+input {
+  margin-bottom: 15px;
+  margin-top: 10px;
+  display: block;
+  width: 100%;
+  background-color: #fff;
+  background-position: right 8px center;
+  background-repeat: no-repeat;
+  border-radius: 6px;
+  font-size: 14px;
+  line-height: 20px;
+  outline: none;
+  padding: 5px 12px;
+  box-sizing: border-box;
+}
+
+label {
+  font-size: 14px;
+}
+
+button {
+  width: 150px;
+  height: 35px;
+  border-radius: 10px;
+  display: block;
+  margin: auto;
+  margin-top: 25px;
+  background-color: #2ea44f;
+}
+
+button:hover {
+  cursor: pointer;
+  background-color: rgb(179, 179, 30);
+}
+
+input.ng-touched.ng-invalid {
+  border: 5px solid red;
 }

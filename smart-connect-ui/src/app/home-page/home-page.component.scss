@@ -1,7 +1,6 @@
 /** Home page header..... */
 .home-page-header-container {
   width: 100%;
-  color: white;
   display: flex;
   justify-content: space-between;
   padding: 20px;
@@ -32,14 +31,10 @@ ul {
 li {
   display: inline-block;
   transition: 0.5s;
+  font-family: auto;
 }
 
 li:hover a {
   border-bottom: 2px solid;
   border-color: palegreen;
-}
-
-a {
-  text-decoration: none;
-  color: white;
 }

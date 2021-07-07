@@ -1,1 +1,54 @@
-<h1>Sign Up</h1>>
+<div class="sign-up">
+  <form [formGroup]="signUpForm">
+    <div>
+      <label>First Name*</label>
+      <input
+        type="text"
+        formControlName="firstName"
+      />
+    </div>
+    <div>
+      <label>Last Name*</label>
+      <input
+        type="text"
+        formControlName="lastName"
+      />
+    </div>
+    <div>
+      <label>Email Address*</label>
+      <input
+        type="email"
+        formControlName="email"
+      />
+    </div>
+    <div>
+      <label>Username*</label>
+      <input
+        type="text"
+        formControlName="password"
+      />
+    </div>
+    <div>
+      <label>Password*</label>
+      <input
+        type="password"
+        formControlName="password"
+      />
+    </div>
+    <div>
+      <label>Confirm Password*</label>
+      <input
+        type="password"
+        formControlName="cnfPassword"
+      />
+    </div>
+    <div>
+      <label>Contact Number*</label>
+      <input
+        type="number"
+        formControlName="contact"
+      />
+    </div>
+    <button [disabled]="!signUpForm.valid">Sign Up</button>
+  </form>
+</div>
